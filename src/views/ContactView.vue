@@ -1,14 +1,14 @@
 <template>
-  <TheAbout />
+  <TheContact />
   <TheInfo />
 </template>
 <script>
-import TheAbout from "@/components/TheAbout.vue";
+import TheContact from "@/components/TheContact.vue";
 import TheInfo from "@/components/TheInfo.vue";
 export default {
-  name: "AboutView",
+  name: "ContactView",
   components: {
-    TheAbout,
+    TheContact,
     TheInfo,
   },
 };
